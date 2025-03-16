@@ -1,7 +1,7 @@
 {
-    "name": "ui5.project_a",
+    "name": "project_a",
     "version": "1.0.0",
-    "description": "SAP Fiori project UI5",
+    "description": "SAP Fiori project | UI5",
     "scripts": {
         "start": "ui5 serve -o index.html"
     }
