@@ -1,0 +1,3 @@
+<element:View xmlns:element="sap.ui.core.mvc" xmlns="sap.m" controllerName="project_a.controller.Main">
+    <Button text="click me" press="pressMe" />
+</element:View>
