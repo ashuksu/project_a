@@ -9,9 +9,13 @@ sap.ui.define([
     'sap/ui/core/mvc/Controller'
 ], function(Controller) {
     'use strict';
-    return Controller.extend(ROOT_FOLDER + ".view.Main", {
+    return Controller.extend(ROOT_FOLDER + ".view.Main", {        
         pressMe: function() {
-            alert(ROOT_FOLDER);
+            let oButton = this.byId("myButton");
+
+            if(oButton) {
+                oButton.toggleStyleClass("active");
+            }            
         }
     });
 });

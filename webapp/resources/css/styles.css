@@ -1,0 +1,8 @@
+.btn .sapMBtnInner {
+    border-color: green;
+    transition: border-color .3s ease-out;
+}
+
+.active .sapMBtnInner {
+    border-color: red;
+}
