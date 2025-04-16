@@ -11,5 +11,5 @@ or
 python3 -m http.server 8080
 or
 python -m http.server 8080
-s
+
 http://localhost:8080
