@@ -1,6 +1,6 @@
 /mta_archives/
 /node_modules/
 /resources/
-
+node_modules/
 .idea/
 .vscode/
